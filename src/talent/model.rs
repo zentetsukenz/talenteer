@@ -11,7 +11,6 @@ pub struct TalentModel {
     pub data:        String,
     pub created_at:  String,
     pub updated_at:  String,
-    password_digest: String,
 }
 
 fn establish_connection() -> PgConnection {
