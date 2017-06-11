@@ -7,6 +7,7 @@ extern crate bodyparser;
 use iron::prelude::*;
 use iron::status;
 use talent::model::*;
+use talent::serializer::*;
 
 pub fn post_talent(request: &mut Request) -> IronResult<Response> {
     match request.get::<bodyparser::Struct<TalentForm>>() {
