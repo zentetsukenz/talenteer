@@ -1,3 +1,3 @@
-CREATE UNIQUE INDEX CONCURRENTLY talents_username ON talents USING btree (
+CREATE UNIQUE INDEX talents_username ON talents USING btree (
   username
 )
