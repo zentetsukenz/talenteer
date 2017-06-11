@@ -1,11 +1,18 @@
 #[macro_use]
 extern crate serde_derive;
 
+#[macro_use]
+extern crate diesel;
+
+#[macro_use]
+extern crate diesel_codegen;
+
 extern crate iron;
 extern crate router;
 extern crate bodyparser;
 extern crate persistent;
 
+mod schema;
 mod talent;
 
 use iron::Iron;
