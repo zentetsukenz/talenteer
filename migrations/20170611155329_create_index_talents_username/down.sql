@@ -1,0 +1,1 @@
+DROP INDEX CONCURRENTLY talents_username
